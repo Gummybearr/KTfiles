@@ -2,7 +2,6 @@ apiVersion: mariadb.mariadb.com/v1alpha1
 kind: MariaDB
 metadata:
   name: mariadb
-  namespace: default
 spec:
   masters: 1
   replicas: 0
