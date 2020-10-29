@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T05:52:30.945Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="VIuS75PSBsF_0exv8YF9" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-29T05:54:43.523Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="81oLg8_RklGKy_IiBgUH" version="13.8.6" type="github">
   <diagram id="YJc4ZtxMsPvknrAtSHdE" name="Page-1">
-    <mxGraphModel dx="5267" dy="3587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="250" pageHeight="450" math="0" shadow="0">
+    <mxGraphModel dx="3460" dy="2512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="250" pageHeight="450" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -116,7 +116,7 @@
           <mxGeometry x="670" y="610" width="210" height="85" as="geometry" />
         </mxCell>
         <mxCell id="4CMgBj91cVDcOPhmYYKw-63" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.03&lt;br&gt;8명&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="255" y="720" width="210" height="85" as="geometry" />
+          <mxGeometry x="255" y="670" width="210" height="85" as="geometry" />
         </mxCell>
         <mxCell id="4CMgBj91cVDcOPhmYYKw-68" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.02&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;불가&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="255" y="200" width="210" height="85" as="geometry" />
