@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T05:54:43.523Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="81oLg8_RklGKy_IiBgUH" version="13.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-29T05:59:00.838Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="8iRIRPFBHNSrrUbGNVPy" version="13.8.6" type="github">
   <diagram id="YJc4ZtxMsPvknrAtSHdE" name="Page-1">
     <mxGraphModel dx="3460" dy="2512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="250" pageHeight="450" math="0" shadow="0">
       <root>
@@ -112,30 +112,40 @@
         <mxCell id="4CMgBj91cVDcOPhmYYKw-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#333333;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-203" y="560" width="80" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="4CMgBj91cVDcOPhmYYKw-62" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.04&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="610" width="210" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="4CMgBj91cVDcOPhmYYKw-63" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.03&lt;br&gt;8명&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="255" y="670" width="210" height="85" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.04&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" link="https://mkate.kt.com/mKate/etc/EtcController/deepLink.do?menuId=MN20200828090328390&amp;dtlLoc=desturl%3D%2Fqr%2FqrInfo.do%3Fcode%3DR020504" id="4CMgBj91cVDcOPhmYYKw-62">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="670" y="610" width="210" height="85" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.03&lt;br&gt;8명&lt;br&gt;&lt;/span&gt;" link="https://mkate.kt.com/mKate/etc/EtcController/deepLink.do?menuId=MN20200828090328390&amp;dtlLoc=desturl%3D%2Fqr%2FqrInfo.do%3Fcode%3DR020503" id="4CMgBj91cVDcOPhmYYKw-63">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="255" y="670" width="210" height="85" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="4CMgBj91cVDcOPhmYYKw-68" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.02&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;불가&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="255" y="200" width="210" height="85" as="geometry" />
         </mxCell>
         <mxCell id="4CMgBj91cVDcOPhmYYKw-69" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.01&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;불가&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="255" y="-240" width="210" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="4CMgBj91cVDcOPhmYYKw-71" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.05&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="400" width="210" height="85" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.05&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" link="https://mkate.kt.com/mKate/etc/EtcController/deepLink.do?menuId=MN20200828090328390&amp;dtlLoc=desturl%3D%2Fqr%2FqrInfo.do%3Fcode%3DR020505" id="4CMgBj91cVDcOPhmYYKw-71">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="670" y="400" width="210" height="85" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="4CMgBj91cVDcOPhmYYKw-72" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.06&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;불가&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="40" width="210" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="4CMgBj91cVDcOPhmYYKw-73" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.07&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="-210" width="210" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="4CMgBj91cVDcOPhmYYKw-74" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.08&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="-430" width="210" height="85" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.07&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" link="https://mkate.kt.com/mKate/etc/EtcController/deepLink.do?menuId=MN20200828090328390&amp;dtlLoc=desturl%3D%2Fqr%2FqrInfo.do%3Fcode%3DR020515" id="4CMgBj91cVDcOPhmYYKw-73">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="670" y="-210" width="210" height="85" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.08&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" link="https://mkate.kt.com/mKate/etc/EtcController/deepLink.do?menuId=MN20200828090328390&amp;dtlLoc=desturl%3D%2Fqr%2FqrInfo.do%3Fcode%3DR020508" id="4CMgBj91cVDcOPhmYYKw-74">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="670" y="-430" width="210" height="85" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="4CMgBj91cVDcOPhmYYKw-75" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-640" y="260" width="200" height="500" as="geometry" />
         </mxCell>
@@ -148,12 +158,16 @@
         <mxCell id="4CMgBj91cVDcOPhmYYKw-78" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.02&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;불가&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-645" y="490" width="210" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="4CMgBj91cVDcOPhmYYKw-79" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.07&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-413" y="305" width="210" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="4CMgBj91cVDcOPhmYYKw-80" value="&lt;span style=&quot;font-size: 50px&quot;&gt;20C.07&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-413" y="620" width="210" height="85" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-size: 50px&quot;&gt;20E.01&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" link="https://mkate.kt.com/mKate/etc/EtcController/deepLink.do?menuId=MN20200828090328390&amp;dtlLoc=desturl%3D%2Fqr%2FqrInfo.do%3Fcode%3DR020509" id="4CMgBj91cVDcOPhmYYKw-79">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="-430" y="305" width="210" height="85" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;span style=&quot;font-size: 50px&quot;&gt;20E.03&lt;br&gt;6명&lt;br&gt;&lt;/span&gt;" link="https://mkate.kt.com/mKate/etc/EtcController/deepLink.do?menuId=MN20200828090328390&amp;dtlLoc=desturl%3D%2Fqr%2FqrInfo.do%3Fcode%3DR020511" id="4CMgBj91cVDcOPhmYYKw-80">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="-430" y="620" width="210" height="85" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="4CMgBj91cVDcOPhmYYKw-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#333333;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-650" y="-430" width="540" height="110" as="geometry" />
         </mxCell>
