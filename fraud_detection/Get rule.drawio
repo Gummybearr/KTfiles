@@ -1,1 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T08:56:10.627Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" version="14.1.8" etag="Xbj0affZhT6ofNg-vTTx" type="github"><diagram id="vuMVSXahCpYPLBTBKH2v">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-07T08:56:35.275Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="1QaURVEGMJWkPMJO8ooG" version="14.1.8" type="github">
+  <diagram id="vuMVSXahCpYPLBTBKH2v" name="Page-1">
+    <mxGraphModel dx="1105" dy="-4194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="250" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WiF0L2D5C0TgwHSr7IFK-1" value="&lt;font style=&quot;font-size: 30px&quot;&gt;Get rule(&lt;/font&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;/api/rules/{id}&lt;/font&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="5070" width="666" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WiF0L2D5C0TgwHSr7IFK-2" value=":RuleRest&#xa;Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="5147" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WiF0L2D5C0TgwHSr7IFK-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WiF0L2D5C0TgwHSr7IFK-2">
+          <mxGeometry x="45" y="70" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WiF0L2D5C0TgwHSr7IFK-4" value="dispatch" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="WiF0L2D5C0TgwHSr7IFK-2" target="WiF0L2D5C0TgwHSr7IFK-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiF0L2D5C0TgwHSr7IFK-5" value=":RuleRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="546" y="5147" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WiF0L2D5C0TgwHSr7IFK-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WiF0L2D5C0TgwHSr7IFK-5">
+          <mxGeometry x="45" y="70" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WiF0L2D5C0TgwHSr7IFK-7" value="findByID" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="421" y="5245" as="sourcePoint" />
+            <mxPoint x="591" y="5245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiF0L2D5C0TgwHSr7IFK-8" value=":RuleNotFound&#xa;Exception" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="729.5" y="5147" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WiF0L2D5C0TgwHSr7IFK-9" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WiF0L2D5C0TgwHSr7IFK-8">
+          <mxGeometry x="45" y="80" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WiF0L2D5C0TgwHSr7IFK-10" value="[if not found] Throw" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="602" y="5271.66" as="sourcePoint" />
+            <mxPoint x="772" y="5271.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
