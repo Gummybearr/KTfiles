@@ -1,1 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T08:58:09.999Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" version="14.1.8" etag="SWsIIpUkk2AhSDffcZwX" type="github"><diagram id="3o2MK-m7Qo3AfSyvqGnl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-07T08:58:41.746Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="aHQAIlERfSe8Yqi-495P" version="14.1.8" type="github">
+  <diagram id="3o2MK-m7Qo3AfSyvqGnl" name="Page-1">
+    <mxGraphModel dx="1355" dy="-5194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="250" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-24" value="&lt;font style=&quot;font-size: 30px&quot;&gt;Delete Rules(&lt;/font&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;/api/rules&lt;/font&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="282" y="6080" width="666" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-25" value=":RuleRest&#xa;Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="6157" width="100" height="493" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-26" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="N-8ipe4YRQuSJK7Ao9-s-25">
+          <mxGeometry x="45" y="70" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-27" value="dispatch" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="N-8ipe4YRQuSJK7Ao9-s-25" target="N-8ipe4YRQuSJK7Ao9-s-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-28" value=":RuleRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="6157" width="100" height="493" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-29" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="N-8ipe4YRQuSJK7Ao9-s-28">
+          <mxGeometry x="45" y="70" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-30" value="deleteById" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.99999999999977" y="6307" as="sourcePoint" />
+            <mxPoint x="339.9999999999998" y="6307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-31" value=":FlinkRulesService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="478.5" y="6157" width="100" height="493" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-32" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="N-8ipe4YRQuSJK7Ao9-s-31">
+          <mxGeometry x="45" y="80" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-33" value="deleteRule" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="351" y="6333.66" as="sourcePoint" />
+            <mxPoint x="521" y="6333.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-34" value=":RulePayload" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="6157" width="100" height="493" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-35" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="N-8ipe4YRQuSJK7Ao9-s-34">
+          <mxGeometry x="45" y="80" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-36" value=":KafkaTemplate" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="6157" width="100" height="493" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-37" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="N-8ipe4YRQuSJK7Ao9-s-36">
+          <mxGeometry x="45" y="80" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-38" value="send" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="6541" as="sourcePoint" />
+            <mxPoint x="1025" y="6541" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-39" value="setRuleState" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="533.5" y="6447" as="sourcePoint" />
+            <mxPoint x="697.5" y="6447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-40" value="setRuleId" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="532.5" y="6384" as="sourcePoint" />
+            <mxPoint x="696.5" y="6384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-41" value=":ObjectMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="825" y="6157" width="100" height="493" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-42" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="N-8ipe4YRQuSJK7Ao9-s-41">
+          <mxGeometry x="45" y="80" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-43" value="writeValueAsString" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="707.5" y="6504" as="sourcePoint" />
+            <mxPoint x="870" y="6504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-44" value="findAll" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="6256" as="sourcePoint" />
+            <mxPoint x="340" y="6256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-45" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135.5" y="6280" width="1000" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-46" value="" style="shape=card;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;rotation=-90;size=22;" vertex="1" parent="1">
+          <mxGeometry x="1093.5" y="6276" width="38" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="N-8ipe4YRQuSJK7Ao9-s-47" value="Loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1095.5" y="6287" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
